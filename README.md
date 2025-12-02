@@ -61,6 +61,9 @@ Key Features to Test
 5. Transfer - Test adaptive security (Approve/Challenge/Block based on trust score)
 That's it! The app should build and run without additional configuration.
 
+Additional points - 
+The trust score can sometimes misbehave even when typing normally for demo purposes. We tried to make it as lenient as possible; this is something which needs more data and complex algorithms to increase accuracy. 
+
 Feature not included in the demo video due to time restriction -
 When username and password is entered five times wrong, this again triggers really low Trust score, which again stops you from using all the features of the app.
 
