@@ -6,14 +6,11 @@ Demo Description
 
 So the purpose of this demo is to show the features which should be available to an application when they are using the zero trust SDK in this demo app, we are trying to analyse user behaviour to calculate a trust score. This trust score would be calculated based on various matrics and calculations such as -
 
-Feature not included in the demo video due to time restriction -
-When username and password is entered five times wrong, this again triggers really slow. Trust score, which again stops you from using all the features of the app.
-
-Text patterns
-Typing speed
-Mobile location
-accelerometer reading(demo does not use it)
-Capacitive touch behaviour (demo does not use it)
+* Text patterns
+* Typing speed
+* Mobile location
+* accelerometer reading(demo does not use it)
+* Capacitive touch behaviour (demo does not use it)
 
 Detection is used in the demo to calculate the trust score
 
@@ -63,6 +60,9 @@ Key Features to Test
 4. Reset - Clear demo state and restore trust score
 5. Transfer - Test adaptive security (Approve/Challenge/Block based on trust score)
 That's it! The app should build and run without additional configuration.
+
+Feature not included in the demo video due to time restriction -
+When username and password is entered five times wrong, this again triggers really slow. Trust score, which again stops you from using all the features of the app.
 
 Generative AI Acknowledgment: Portions of the code in this project were generated with assistance from ChatGPT, Perplexity Pro, and Claude
 * Estimated percentage of code influenced by Generative AI: 17.3%
