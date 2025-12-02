@@ -236,7 +236,7 @@ fun LoginScreen(
         
         // Info Text
         Text(
-            text = "💡 For demo: Use any username/password\nYour typing pattern is being analyzed in real-time",
+            text = "💡 For demo: Use user/password\n",
             style = MaterialTheme.typography.bodySmall,
             color = MaterialTheme.colorScheme.onSurface.copy(alpha = 0.6f)
         )
