@@ -4,7 +4,7 @@ Readme
 
 Demo Description 
 
-So the purpose of this demo is to show the features which should be available to an application when they are using the zero trust SDK in this demo app, we are trying to analyse user behaviour to calculate a trust score. This trust score would be calculated based on various metrics and calculations, such as -
+So the purpose of this demo is to show the some of the features which would be available to an application when they are using the zero trust SDK in this demo app(We have not implemented an SDK we have made an demo/pilot app to show features of an Zero Trust SDK), In an actual SDK we are trying to analyse user behaviour to calculate a trust score. This trust score determines the when and how strong security should be present at any given time in the app. This trust score would be calculated based on various metrics and calculations, such as -
 
 * Text patterns
 * Typing speed
@@ -20,7 +20,7 @@ Text patterns - a bot typing attack is simulated in the demo, so superhuman spee
 
 Mobile location - jump simulation button is also added, when clicked, the location of the mobile device changes rapidly, which is usually not possible this again impacts the trust score
 
-Accelerometer readings - These readings can be used to assist mobile location detection. GPS proofing
+Accelerometer readings - These readings can be used to assist mobile location detection. GPS proofing(Accelerometer readings are only displayed in the demo)
 
 Capacity touch behaviour - can be used to detect finger stroke patterns to determine if a human or a machine is trying to make the gestures on a mobile device
 
@@ -66,6 +66,8 @@ The trust score can sometimes misbehave even when typing normally for demo purpo
 
 Feature not included in the demo video due to time restriction -
 When username and password is entered five times wrong, this again triggers really low Trust score, which again stops you from using all the features of the app.
+
+Video link - https://www.youtube.com/watch?v=ZMYCQ7_9Je4 (demo 5:37 time)
 
 Generative AI Acknowledgment: Portions of the code in this project were generated with assistance from ChatGPT, Perplexity Pro, and Claude
 * Estimated percentage of code influenced by Generative AI: 17.3%
